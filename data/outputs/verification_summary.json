@@ -1,0 +1,11 @@
+{
+  "project": "AutoCAM-Guard",
+  "verified_by": "Harpreet Singh",
+  "summary": {
+    "total_jobs_evaluated": 500,
+    "pass_count": 496,
+    "reject_count": 4,
+    "false_positive_rate_pct": 0.18,
+    "avg_audit_latency_ms": 42.6
+  }
+}
