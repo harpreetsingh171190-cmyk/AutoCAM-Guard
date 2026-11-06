@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('AutoCAM-Guard Test Bracket STEP Model'),'2;1');
+FILE_NAME('bracket_sample.step','2026-11-06',('Harpreet Singh'),('AutoCAM-Guard'),'','','');
+FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
+ENDSEC;
+DATA;
+#1=PRODUCT_DEFINITION_CONTEXT('part definition',#2,'manufacturing');
+#2=APPLICATION_CONTEXT('mechanical design');
+ENDSEC;
+END-ISO-10303-21;
