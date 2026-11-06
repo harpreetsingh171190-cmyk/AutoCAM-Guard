@@ -1,0 +1,31 @@
+{
+  "project": "AutoCAM-Guard",
+  "author": "Harpreet Singh",
+  "version": "1.0.0",
+  "thresholds": {
+    "cnc": {
+      "max_spindle_rpm": 12000,
+      "max_feed_rate_mm_min": 2400.0,
+      "safe_retract_height_mm": 5.0,
+      "allowed_wcs": [
+        "G54",
+        "G55",
+        "G56",
+        "G57",
+        "G58",
+        "G59"
+      ]
+    },
+    "additive": {
+      "max_build_x_mm": 250.0,
+      "max_build_y_mm": 210.0,
+      "max_build_z_mm": 220.0,
+      "check_watertight": true
+    },
+    "laser": {
+      "max_power_percentage": 95.0,
+      "allow_open_vectors": false,
+      "min_kerf_gap_mm": 0.15
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "machines": [
+    {
+      "id": "CNC_MILL_3AXIS_01",
+      "type": "cnc_milling",
+      "limits": {
+        "x_max": 500.0,
+        "y_max": 350.0,
+        "z_max": 250.0,
+        "rpm_max": 12000
+      },
+      "controller": "Fanuc_0i"
+    },
+    {
+      "id": "FDM_PRINTER_01",
+      "type": "additive_fdm",
+      "limits": {
+        "bed_x": 250.0,
+        "bed_y": 210.0,
+        "height_z": 220.0
+      },
+      "nozzle_diameters": [
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "id": "CO2_LASER_80W_01",
+      "type": "laser_cutter",
+      "limits": {
+        "bed_x": 600.0,
+        "bed_y": 400.0,
+        "max_speed_mm_s": 500.0
+      },
+      "inert_gas_required": false
+    }
+  ]
+}
